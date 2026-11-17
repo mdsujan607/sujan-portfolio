@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Md Sujan Mia – Coordination Officer, DIU</title>
+<meta name="description" content="Personal portfolio of Md Sujan Mia, Coordination Officer, Office of the Dean, FSIT, Daffodil International University.">
+<style>
+:root{--bg:#f3f5f9;--card:#fff;--tx:#14213d;--mut:#5b6678;--pri:#1f5fd6;--pri2:#0d3b91;--bd:#dfe4ee;--gr:#e9edf4;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e1420;--card:#172033;--tx:#e8edf7;--mut:#9aa7bd;--pri:#5b92f5;--pri2:#3b6fd0;--bd:#27324a;--gr:#202b42;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0e1420;--card:#172033;--tx:#e8edf7;--mut:#9aa7bd;--pri:#5b92f5;--pri2:#3b6fd0;--bd:#27324a;--gr:#202b42;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.6 Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+.wrap{max-width:1000px;margin:auto;padding:0 18px}
+header.hero{background:linear-gradient(135deg,var(--pri2),var(--pri));color:#fff;padding:44px 0 70px}
+.hero .wrap{display:flex;gap:28px;align-items:center;flex-wrap:wrap}
+.ph{width:150px;height:150px;border-radius:50%;object-fit:cover;border:5px solid rgba(255,255,255,.7);background:#fff3;display:grid;place-items:center;font-size:54px;font-weight:700;flex:none;animation:pop .7s ease both}
+@keyframes pop{from{opacity:0;transform:scale(.85)}}
+.hero h1{margin:0;font-size:clamp(1.8rem,5vw,2.8rem);line-height:1.15}.hero p{margin:6px 0;max-width:560px;opacity:.95}.hero .role{font-size:1.15rem;font-weight:600}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--card);border-bottom:1px solid var(--bd);box-shadow:0 2px 8px #0001}
+nav .wrap{display:flex;gap:4px;overflow-x:auto}
+nav button{border:0;background:none;color:var(--mut);padding:14px 14px;font:600 .95rem inherit;font-family:inherit;cursor:pointer;border-bottom:3px solid transparent;white-space:nowrap}
+nav button.on{color:var(--pri);border-color:var(--pri)}
+main{padding:26px 0 60px;animation:fade .35s ease}@keyframes fade{from{opacity:0;transform:translateY(8px)}}
+h2{margin:0 0 16px;font-size:1.5rem}.row{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:14px}
+.grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(230px,1fr))}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:16px;box-shadow:0 2px 10px #0000000a}
+.card small{color:var(--mut);display:block;text-transform:uppercase;letter-spacing:.05em;font-size:.72rem}.card b{font-size:1.02rem;word-break:break-word}
+.tl{border-left:3px solid var(--pri);margin-left:8px;padding-left:20px}.tl .card{position:relative;margin-bottom:14px}
+.tl .card:before{content:"";position:absolute;left:-30px;top:20px;width:13px;height:13px;border-radius:50%;background:var(--pri);border:3px solid var(--bg)}
+.tag{display:inline-block;background:var(--gr);color:var(--pri);border-radius:99px;padding:1px 10px;font-size:.78rem;font-weight:600;margin-right:6px}.tag.cur{background:#16a34a;color:#fff}
+.mut{color:var(--mut)}.btn{border:1px solid var(--bd);background:var(--card);color:var(--tx);border-radius:9px;padding:7px 13px;font:inherit;font-size:.9rem;cursor:pointer}
+.btn.p{background:var(--pri);color:#fff;border-color:var(--pri)}.btn.d{color:#dc2626}.adm{display:none}.edit .adm{display:inline-flex;gap:6px;flex-wrap:wrap}
+.gal{display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(200px,1fr))}.gal figure{margin:0;background:var(--card);border:1px solid var(--bd);border-radius:12px;overflow:hidden}
+.gal img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block;cursor:zoom-in;transition:transform .3s}.gal img:hover{transform:scale(1.04)}.gal figcaption{padding:10px}
+a{color:var(--pri)}input,textarea{width:100%;font:inherit;padding:9px;border:1px solid var(--bd);border-radius:8px;background:var(--bg);color:var(--tx);margin:3px 0 10px}
+label{font-size:.85rem;font-weight:600}
+dialog{border:0;border-radius:16px;padding:20px;width:min(520px,94vw);background:var(--card);color:var(--tx);max-height:90vh}dialog::backdrop{background:#000a}
+#bar{position:fixed;right:14px;bottom:calc(14px + env(safe-area-inset-bottom,0px));z-index:9}
+#toast{position:fixed;left:50%;transform:translateX(-50%);bottom:70px;background:#14213d;color:#fff;padding:9px 16px;border-radius:99px;display:none;z-index:20}
+footer{text-align:center;color:var(--mut);padding:20px;font-size:.85rem}
+:focus-visible{outline:3px solid var(--pri);outline-offset:2px}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style></head>
+<body>
+<div id="app"></div><div id="modal"></div><div id="toast" role="status"></div>
+<script id="data" type="application/json">{"p":{"name":"Md Sujan Mia","designation":"Coordination Officer","org":"Daffodil International University (DIU)","office":"Office of the Dean, Faculty of Science and Information Technology (FSIT)","joining":"2027","bio":"Coordination Officer at the Office of the Dean, FSIT, Daffodil International University. Edit this introduction from Admin Mode.","photo":""},"fields":[{"k":"Full Name","v":"Md Sujan Mia"},{"k":"Designation","v":"Coordination Officer"},{"k":"Organization","v":"Daffodil International University (DIU)"},{"k":"Office","v":"Office of the Dean, FSIT"},{"k":"Joining Year","v":"2027"}],"education":[],"experience":[{"title":"Coordination Officer","org":"Daffodil International University","office":"Office of the Dean, Faculty of Science and Information Technology (FSIT)","type":"Full-time","start":"2027","end":"","current":true,"resp":"","desc":""}],"gallery":[],"c":{"phone":"","email":"","present":"","permanent":"","map":""},"socials":[{"k":"Facebook","v":""},{"k":"LinkedIn","v":""}]}</script>
+<script>
+const D=JSON.parse(document.getElementById('data').textContent);
+let tab=(location.hash||'#details').slice(1),edit=false,art=null,assets=null,canEdit=false;
+const $=s=>document.querySelector(s),esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const TABS=[['details','Personal Details'],['education','Education'],['experience','Experience'],['gallery','Gallery'],['contacts','Contacts']];
+const SPEC={
+ p:[['name','Full name'],['photo','Profile photograph','img'],['designation','Professional designation'],['org','Organization'],['office','Department / Office'],['joining','Joining year'],['bio','Short biography / About me','area']],
+ fields:[['k','Field name'],['v','Value']],socials:[['k','Network (e.g. LinkedIn)'],['v','Link (https://…)']],
+ education:[['degree','Degree / Certificate name'],['institution','Institution'],['subject','Department / Subject'],['board','Board / University'],['year','Passing year'],['result','Result / CGPA'],['desc','Description (optional)','area'],['doc','Certificate / document image (optional)','img']],
+ experience:[['title','Job title / Designation'],['org','Organization'],['office','Department / Office'],['type','Employment type'],['start','Joining date'],['end','Ending date (optional)'],['current','Current position','check'],['resp','Job responsibilities','area'],['desc','Description','area']],
+ gallery:[['src','Photograph','img'],['title','Title'],['desc','Description','area']],
+ c:[['phone','Mobile number'],['email','Email address'],['present','Present address','area'],['permanent','Permanent address','area'],['map','Google Maps link (optional)']]};
+const A=(s,i)=>edit?`<span class="adm"><button class="btn" data-a="edit" data-s="${s}" data-i="${i}">Edit</button><button class="btn d" data-a="del" data-s="${s}" data-i="${i}">Delete</button></span>`:'';
+const add=(s,l)=>edit?`<span class="adm"><button class="btn p" data-a="add" data-s="${s}">+ ${l}</button></span>`:'';
+const empty=t=>`<p class="mut card">${t}${edit?'':' Check back soon.'}</p>`;
+function render(){
+ const p=D.p,init=p.name.split(' ').slice(1,3).map(w=>w[0]).join('')||p.name[0];
+ const body={details:()=>`<div class="row"><h2>Personal Details</h2>${add('fields','Add field')}</div><div class="grid">${D.fields.map((f,i)=>`<div class="card"><small>${esc(f.k)}</small><b>${esc(f.v)||'—'}</b><div style="margin-top:8px">${A('fields',i)}</div></div>`).join('')}</div>`,
+ education:()=>{const l=D.education.map((e,i)=>[e,i]).sort((a,b)=>(+b[0].year||0)-(+a[0].year||0));return`<div class="row"><h2>Education</h2>${add('education','Add education')}</div>${l.length?`<div class="tl">${l.map(([e,i])=>`<div class="card"><span class="tag">${esc(e.year)}</span><h3 style="margin:6px 0 2px">${esc(e.degree)}</h3><div>${esc(e.institution)}</div><div class="mut">${[e.subject,e.board,e.result&&'Result: '+e.result].filter(Boolean).map(esc).join(' · ')}</div>${e.desc?`<p>${esc(e.desc)}</p>`:''}${e.doc?`<a href="${esc(e.doc)}" target="_blank" rel="noopener">View certificate</a>`:''}<div style="margin-top:8px">${A('education',i)}</div></div>`).join('')}</div>`:empty('No education records yet.')}`},
+ experience:()=>{const l=D.experience.map((e,i)=>[e,i]).sort((a,b)=>(b[0].current-a[0].current)||String(b[0].start).localeCompare(String(a[0].start)));return`<div class="row"><h2>Experience</h2>${add('experience','Add experience')}</div>${l.length?`<div class="tl">${l.map(([e,i])=>`<div class="card"><span class="tag ${e.current?'cur':''}">${e.current?'Current':'Past'}</span><span class="tag">${esc(e.start)} – ${e.current?'Present':esc(e.end)||'—'}</span><h3 style="margin:6px 0 2px">${esc(e.title)}</h3><div>${esc(e.org)}</div><div class="mut">${[e.office,e.type].filter(Boolean).map(esc).join(' · ')}</div>${e.resp?`<p><b>Responsibilities:</b> ${esc(e.resp)}</p>`:''}${e.desc?`<p>${esc(e.desc)}</p>`:''}<div>${A('experience',i)}</div></div>`).join('')}</div>`:empty('No experience yet.')}`},
+ gallery:()=>`<div class="row"><h2>Gallery</h2>${add('gallery','Upload photo')}</div>${D.gallery.length?`<div class="gal">${D.gallery.map((g,i)=>`<figure><img src="${esc(g.src)}" alt="${esc(g.title)}" loading="lazy" data-a="zoom" data-i="${i}" tabindex="0"><figcaption><b>${esc(g.title)}</b><div class="mut">${esc(g.desc)}</div>${A('gallery',i)}</figcaption></figure>`).join('')}</div>`:empty('No photos yet.')}`,
+ contacts:()=>{const c=D.c;return`<div class="row"><h2>Contacts</h2>${edit?`<span class="adm"><button class="btn p" data-a="edit" data-s="c">Edit contacts</button><button class="btn" data-a="add" data-s="socials">+ Social link</button></span>`:''}</div><div class="grid">
+ <div class="card"><small>Mobile</small><b>${c.phone?`<a href="tel:${esc(c.phone)}">${esc(c.phone)}</a>`:'—'}</b></div>
+ <div class="card"><small>Email</small><b>${c.email?`<a href="mailto:${esc(c.email)}">${esc(c.email)}</a>`:'—'}</b></div>
+ <div class="card"><small>Present address</small><b>${esc(c.present)||'—'}</b></div>
+ <div class="card"><small>Permanent address</small><b>${esc(c.permanent)||'—'}</b></div>
+ ${c.map?`<div class="card"><small>Location</small><b><a href="${esc(c.map)}" target="_blank" rel="noopener">Open in Google Maps</a></b></div>`:''}</div>
+ <h3>Social</h3><div class="grid">${D.socials.map((s,i)=>`<div class="card"><small>${esc(s.k)}</small><b>${/^https?:\/\//.test(s.v)?`<a href="${esc(s.v)}" target="_blank" rel="noopener">${esc(s.v)}</a>`:'—'}</b>${A('socials',i)}</div>`).join('')}</div>
+ <h3>Send a message</h3><form class="card" id="cf"><label>Name<input name="n" required></label><label>Email<input name="e" type="email" required></label><label>Subject<input name="s" required></label><label>Message<textarea name="m" rows="4" required></textarea></label><button class="btn p">Send message</button><p class="mut" style="margin:8px 0 0;font-size:.85rem">Opens your email app with the message addressed to ${esc(c.email)||'the owner'}.</p></form>`}};
+ $('#app').className=edit?'edit':'';
+ $('#app').innerHTML=`<header class="hero"><div class="wrap">${p.photo?`<img class="ph" src="${esc(p.photo)}" alt="Profile photo of ${esc(p.name)}">`:`<div class="ph" aria-hidden="true">${esc(init)}</div>`}<div><h1>${esc(p.name)}</h1><div class="role">${esc(p.designation)}</div><div>${esc(p.org)}</div><div style="opacity:.85">${esc(p.office)}${p.joining?' · Since '+esc(p.joining):''}</div><p>${esc(p.bio)}</p>${edit?`<button class="btn" data-a="edit" data-s="p">Edit profile &amp; introduction</button>`:''}</div></div></header>
+ <nav aria-label="Main"><div class="wrap">${TABS.map(([k,l])=>`<button class="${k==tab?'on':''}" data-a="tab" data-t="${k}">${l}</button>`).join('')}</div></nav>
+ <main><div class="wrap">${(body[tab]||body.details)()}</div></main><footer>© ${esc(p.name)} · ${esc(p.org)}</footer>
+ ${canEdit?`<div id="bar"><button class="btn p" data-a="mode">${edit?'Exit Admin Mode':'Admin Mode'}</button></div>`:''}`;
+}
+function toast(t){const e=$('#toast');e.textContent=t;e.style.display='block';setTimeout(()=>e.style.display='none',2600)}
+async function save(){render();if(!art){toast('Saving is only available to the owner');return}
+ const c=document.documentElement.cloneNode(true);c.querySelector('#app').innerHTML='';c.querySelector('#modal').innerHTML='';
+ c.querySelector('#data').textContent=JSON.stringify(D).replace(/</g,'\\u003c');
+ try{toast('Saving…');await art.publish('<!DOCTYPE html>\n'+c.outerHTML)}catch(e){toast('Save failed: '+(e.code||e.message))}}
+function shrink(f){return new Promise((ok,no)=>{const u=URL.createObjectURL(f),i=new Image();i.onload=()=>{const r=Math.min(1,1400/Math.max(i.width,i.height)),c=document.createElement('canvas');c.width=i.width*r;c.height=i.height*r;c.getContext('2d').drawImage(i,0,0,c.width,c.height);c.toBlob(b=>b?ok(b):no(),'image/jpeg',.82)};i.onerror=no;i.src=u})}
+function form(title,spec,val,done){
+ const m=$('#modal');m.innerHTML=`<dialog aria-label="${esc(title)}"><h3 style="margin-top:0">${esc(title)}</h3><form method="dialog" id="f">${spec.map(([k,l,t])=>t=='check'?`<label><input type="checkbox" name="${k}" ${val[k]?'checked':''} style="width:auto"> ${l}</label><br><br>`:t=='img'?`<label>${l}<input type="file" name="${k}" accept="image/*" capture="environment"></label>${val[k]?`<img src="${esc(val[k])}" alt="" style="height:60px;border-radius:8px"><br>`:''}`:t=='area'?`<label>${l}<textarea name="${k}" rows="3">${esc(val[k])}</textarea></label>`:`<label>${l}<input name="${k}" value="${esc(val[k])}"></label>`).join('')}<div style="display:flex;gap:8px;justify-content:flex-end"><button type="button" class="btn" id="x">Cancel</button><button class="btn p">Save</button></div></form></dialog>`;
+ const d=m.firstChild;d.showModal();$('#x').onclick=()=>d.close();
+ d.onclose=()=>m.innerHTML='';
+ $('#f').onsubmit=async ev=>{ev.preventDefault();const o={...val},fd=new FormData(ev.target);
+  for(const [k,,t] of spec){if(t=='check')o[k]=fd.get(k)=='on';else if(t=='img'){const f=fd.get(k);if(f&&f.size){if(!assets){toast('Uploads need the owner account');return}try{toast('Uploading…');const r=await assets.upload(await shrink(f));o[k]=r.url}catch(e){toast('Upload failed');return}}}else o[k]=fd.get(k)}
+  d.close();done(o)}}
+function lightbox(i){const g=D.gallery[i],m=$('#modal');m.innerHTML=`<dialog style="width:min(900px,96vw);padding:10px" aria-label="${esc(g.title)}"><img src="${esc(g.src)}" alt="${esc(g.title)}" style="width:100%;max-height:75vh;object-fit:contain"><p><b>${esc(g.title)}</b><br><span class="mut">${esc(g.desc)}</span></p><button class="btn" id="x">Close</button></dialog>`;const d=m.firstChild;d.showModal();$('#x').onclick=()=>d.close();d.onclick=e=>{if(e.target==d)d.close()};d.onclose=()=>m.innerHTML=''}
+const LBL={fields:'field',socials:'social link',education:'education',experience:'experience',gallery:'photo',p:'profile',c:'contacts'};
+document.addEventListener('click',e=>{const b=e.target.closest('[data-a]');if(!b)return;const a=b.dataset.a,s=b.dataset.s,i=b.dataset.i;
+ if(a=='tab'){tab=b.dataset.t;location.hash=tab;render()}
+ else if(a=='mode'){edit=!edit;render()}
+ else if(a=='zoom')lightbox(i);
+ else if(a=='del'){if(confirm('Delete this '+LBL[s]+'?')){D[s].splice(i,1);save()}}
+ else if(a=='add')form('Add '+LBL[s],SPEC[s],{},o=>{D[s].push(o);save()});
+ else if(a=='edit'){const single=s=='p'||s=='c';form('Edit '+LBL[s],SPEC[s],single?D[s]:D[s][i],o=>{if(single)D[s]=o;else D[s][i]=o;save()})}});
+document.addEventListener('keydown',e=>{if(e.key=='Enter'&&e.target.dataset?.a=='zoom')lightbox(e.target.dataset.i)});
+document.addEventListener('submit',e=>{if(e.target.id=='cf'){e.preventDefault();const f=new FormData(e.target);location.href=`mailto:${D.c.email}?subject=${encodeURIComponent(f.get('s'))}&body=${encodeURIComponent(f.get('m')+'\n\n— '+f.get('n')+' ('+f.get('e')+')')}`}});
+addEventListener('hashchange',()=>{tab=(location.hash||'#details').slice(1);render()});
+render();
+(async()=>{try{const u=await claude.use('user');canEdit=!!(u&&u.canEdit());if(canEdit){art=await claude.use('artifact');assets=await claude.use('assets')}render()}catch(e){}})();
+</script></body></html>
